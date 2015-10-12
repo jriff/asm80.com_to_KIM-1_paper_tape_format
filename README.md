@@ -1,14 +1,14 @@
-# Asm80.com hex fomat to KIM-1 pager tape format
+# Asm80.com hex fomat to KIM-1 paper tape format
 
-A Ruby script that converts the asm80.com hex format to the KIM-1 paper tape format. 
+A Ruby script that converts the asm80.com hex format to the KIM-1 paper tape format.
 
 # Usage
-Reads asm80.com output from stdin and dumps the reault to stdout. 
+Reads asm80.com output from stdin and dumps the result to stdout.
 
 OSX example:
 
     pbpaste | ./asm80ToPaperTape.rb | pbcopy
-This will convert the contents of the OSX clipboard and copy the result to the clipboard. 
+This will convert the contents of the OSX clipboard and copy the result back to the clipboard.
 
 Remember to change the shebang line (#!) to your ruby path!
 
